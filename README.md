@@ -21,7 +21,7 @@ For permissions or inquiries, please contact: **sidheshwar.sarangal@gmail.com**
 ## 🔗 Visit this WEBPAGE to know more about this extension
 
 Check out the deployed version here:  
-[🚀 chrome--extension-info Website](https://sidheshwarsarangal.github.io/chrome--extension-info/)
+[🚀 chrome--extension-info Website](https://sidheshwarsarangal.github.io/ext-info-new/)
 
 
 ## 📦 Features
