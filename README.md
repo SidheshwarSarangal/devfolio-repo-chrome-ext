@@ -63,7 +63,9 @@ If you're facing issues with the extension not working or the `dist` folder miss
 ```bash
 # Remove the old 'dist' folder
 rm -rf dist/
-
+```
+Get into that folder
+```
 # Rebuild the extension bundle
 npx webpack --config webpack.config.js
 ```
