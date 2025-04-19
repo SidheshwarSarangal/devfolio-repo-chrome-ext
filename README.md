@@ -21,8 +21,17 @@ For permissions or inquiries, please contact: **sidheshwar.sarangal@gmail.com**
 ## 🔗 Visit this WEBPAGE to know more about this extension
 
 Check out the deployed version here:  
-[🚀 chrome--extension-info Website](https://sidheshwarsarangal.github.io/ext-info-new/)
+[🚀 chrome--extension-info Webpage](https://sidheshwarsarangal.github.io/ext-info-new/)
 
+---
+
+## 📹 Demo Video
+
+Watch the full demo here: [Demo Video](https://drive.google.com/file/d/1f2CwP2pccsIQBOZEgyDaVbZBqgbGYzej/view?usp=sharing)
+
+> This video walks you through the implementation of this chrome extension.
+
+---
 
 ## 📦 Features
 
