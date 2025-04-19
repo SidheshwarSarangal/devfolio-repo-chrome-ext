@@ -41,6 +41,7 @@ Check out the deployed version here:
    ```bash
    git clone https://github.com/your-username/chrome-ext-webpage-data.git
    ```
+   Get into devfolio-repo-chrome-ext and do:
    ```bash
    npm i
    ```
@@ -63,9 +64,7 @@ If you're facing issues with the extension not working or the `dist` folder miss
 ```bash
 # Remove the old 'dist' folder
 rm -rf dist/
-```
-Get into that folder
-```
+
 # Rebuild the extension bundle
 npx webpack --config webpack.config.js
 ```
