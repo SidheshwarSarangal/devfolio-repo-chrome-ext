@@ -7,9 +7,10 @@ export async function fetchGroqResponse(pageText) {
         }
 
 
-       // const response = await fetch(chrome.runtime.getURL("config.json"));
-       // const config = await response.json();
-        const API_KEY = "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";
+       const response = await fetch(chrome.runtime.getURL("config.json"));
+       const config = await response.json();
+       const API_KEY= config.API_KEY;
+       // const API_KEY = "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";
 
         if (!API_KEY) {
             console.error("❌ Groq API Key is missing!");
@@ -59,9 +60,11 @@ async function convertImageUrlToBase64(imageUrl) {
 export async function analyzeVisualContent(imageUrl) {
     try {
         // Load API Key from config
-        //const response = await fetch(chrome.runtime.getURL("config.json"));
-        //const config = await response.json();
-        const API_KEY = "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";
+        const response = await fetch(chrome.runtime.getURL("config.json"));
+        const config = await response.json();
+        const API_KEY= config.API_KEY;
+        //const API_KEY = "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";
+
 
         if (!API_KEY) {
             console.error("❌ Groq API Key is missing!");
