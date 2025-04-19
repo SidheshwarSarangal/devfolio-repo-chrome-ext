@@ -82,4 +82,4 @@ npx webpack --config webpack.config.js
 
 ## 📌 Note
 
-Make sure you have `Node.js` and `Webpack` installed globally if you're rebuilding the project manually.
+Make sure you have `Node.js` installed globally.
