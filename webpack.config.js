@@ -1,4 +1,5 @@
 const path = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     mode: "production",
@@ -15,8 +16,7 @@ module.exports = {
     resolve: {
         extensions: [".js"],
         fallback: {
-            // Add fallbacks if needed for jsPDF or other libraries
-            fs: false, // jsPDF doesn't require 'fs' in the browser
+            fs: false,
             path: false,
             crypto: false
         }
@@ -35,8 +35,15 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        new CopyWebpackPlugin({
+            patterns: [
+                { from: "config.json", to: "config.json" }
+            ]
+        })
+    ],
     performance: {
-        maxAssetSize: 512000,       // 500 KiB
-        maxEntrypointSize: 512000   // 500 KiB
+        maxAssetSize: 512000,
+        maxEntrypointSize: 512000
     }
 };
