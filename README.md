@@ -35,11 +35,12 @@ Watch the full demo here: [Demo Video](https://drive.google.com/file/d/1f2CwP2pc
 
 ## Key Development Processes
 - Technologies used: Manifest 3, webpack, javascript and HTML.
-- The text data extracted from the webpage is first cut short before sendig it to ai. The unnecesary spaces, tags, or other aspects are removed first before sending. This is done to reduce the number of input tokens for that ai api call.
+- The text data extracted from the webpage is first cut short before sendig it to ai. The unnecesary blank spaces, tags and other aspects are removed first before sending. This is done to reduce the number of input tokens for that ai api call.
 - The images are taken from the display in form of url links and not screenshots.
-- The images url are then stored in a set and not a list before sending them to ai. This is becuase, during reading the webpage, it may to take same image multiple times which will unnecessarily increase the input calls resulting in wasting of a lot of tokens.
+- These urls are then stored in a set and not a list before sending them to ai. This is becuase, during reading the webpage, it may take same image multiple times, which will unnecessarily increase the input calls resulting in wasting of a lot of tokens.
 - First the summerized text information is put to the text file and then the information extracted from the different images one by one, with each image first and then the corresponding information about it.
-  
+- And, finally when the .txt file is completed, then it is downloaded.
+
 ---
 
 ## 📦 Features
