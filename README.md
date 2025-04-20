@@ -36,7 +36,9 @@ Watch the full demo here: [Demo Video](https://drive.google.com/file/d/1f2CwP2pc
 ## The problem it solves
 
 Many companies across the world require a lot of data (real world data like market news, statistics,etc.) for which they have hired consultants, product managers and data collectors. So, when these people are required to go through different websites to collect data, they usually spend a lot of time and their work becomes hectic. In order to make their task easy, this chrome extension can be used to extract all the text and image information from webpages in just one click!
+
 Mayebe, there could have been other ways too to get extracted information from webpages, but I chose creating a chrome extension because it is easy for end user to work with. Just going to the top right side of the chrome browser, selecting the extension and just one click. Easy!
+
 Going through ten pages and reading every single line is difficult than just going on each page and letting this ai-powered chrome extension to do its work. This can definitely help data collectors, consultants and product managers collect data quickly and easily.
 
 ---
