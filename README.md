@@ -33,6 +33,14 @@ Watch the full demo here: [Demo Video](https://drive.google.com/file/d/1f2CwP2pc
 
 ---
 
+## The problem it solves
+
+Many companies across the world require a lot of data (real world data like market news, statistics,etc.) for which they have hired consultants, product managers and data collectors. So, when these people are required to go through different websites to collect data, they usually spend a lot of time and their work becomes hectic. In order to make their task easy, this chrome extension can be used to extract all the text and image information from webpages in just one click!
+Mayebe, there could have been other ways too to get extracted information from webpages, but I chose creating a chrome extension because it is easy for end user to work with. Just going to the top right side of the chrome browser, selecting the extension and just one click. Easy!
+Going through ten pages and reading every single line is difficult than just going on each page and letting this ai-powered chrome extension to do its work. This can definitely help data collectors, consultants and product managers collect data quickly and easily.
+
+---
+
 ## Key Development Processes
 - Technologies used: Manifest 3, webpack, javascript and HTML.
 - The text data extracted from the webpage is first cut short before sendig it to ai. The unnecesary blank spaces, tags and other aspects are removed first before sending. This is done to reduce the number of input tokens for that ai api call.
@@ -43,10 +51,18 @@ Watch the full demo here: [Demo Video](https://drive.google.com/file/d/1f2CwP2pc
 
 ---
 
+## Challenges I ran into
+
+-> First it it took me little while to learn to build chrome extensions, learning how it works. Also, finding how in general, all the webpages have common about the structure of their webpages frontend code(like different tags, image tag, etc). How popup, background script and content script work. Also how to work with ai api keys. (overall, it took me 1 day)
+-> Working on the files, by taking baby steps, to finish all the tasks from the click to the end .txt file.
+-> I learned that we need to compile using webpack bundler because many aspects we cant just directly use in a chrome extension in the same way we use them in creating websites.
+-> Optimizing space and reducing token count by cutting short the text data from the webpage and using set(and not list) to store the url of the images present on the webpage.
+-> Initially I was taking screenshots of the webpage to read the images but it was very difficult to work with them and use them in ai api call so I changed my approach and made use of image urls.
+
+---
+
 ## 📦 Features
 
-- Useful for product managers and consultants as it enables them to instantly get summerized and precise information from web pages!!!!
-- No need to go through a lot of data. Just Use this extension and make it simple for you to collect information from internet.
 - 📝 Extracts all visible text and images from the current webpage  
 - 📁 Converts extracted data into a plain text format  
 - ⬇️ Automatically downloads the result as a `.txt` file  
