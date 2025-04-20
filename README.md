@@ -77,6 +77,7 @@ rm -rf dist/
 # Rebuild the extension bundle
 npx webpack --config webpack.config.js
 ```
+Please you are getting multiple downloadings or very crouded or wrong downloaded files, then go to that extension in chrome://extensions/, click on errors and then clear them and then relad the extension. Then it will work properly.
 
 ---
 
