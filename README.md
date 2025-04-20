@@ -56,10 +56,16 @@ Going through ten pages and reading every single line is difficult than just goi
 ## Challenges I ran into
 
 -> First it it took me little while to learn to build chrome extensions, learning how it works. Also, finding how in general, all the webpages have common about the structure of their webpages frontend code(like different tags, image tag, etc). How popup, background script and content script work. Also how to work with ai api keys. (overall, it took me 1 day)
+
 -> Working on the files, by taking baby steps, to finish all the tasks from the click to the end .txt file.
+
 -> I learned that we need to compile using webpack bundler because many aspects we cant just directly use in a chrome extension in the same way we use them in creating websites.
+
 -> Optimizing space and reducing token count by cutting short the text data from the webpage and using set(and not list) to store the url of the images present on the webpage.
+
 -> Initially I was taking screenshots of the webpage to read the images but it was very difficult to work with them and use them in ai api call so I changed my approach and made use of image urls.
+
+Overall, the whole project was completed in 5 to 6 days!!!!
 
 ---
 
